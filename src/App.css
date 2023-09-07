@@ -58,3 +58,17 @@ h1{
     padding: 10px;
     margin: 23px;
 }
+
+ .container1{
+
+  position: absolute;
+  top: 1%;
+  right: 1%;
+
+} 
+
+/* .cart{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+} */
