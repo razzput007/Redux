@@ -4,13 +4,13 @@ const initialState = {
   cardData: [],
 };
 
-export default function cartItem(state = initialState, action) {
+export default function cartItem(state = [], action) {
   switch (action.type) {
     case Add_To_cart:
-      return {
+      return [
         ...state,
-        cardData: action.data
-      }
+       { cardData: action.data}
+      ]
     default:
       return state;
   }
