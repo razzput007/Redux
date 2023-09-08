@@ -3,11 +3,14 @@ import  React from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import HomeContainer from "./containers/HomeContainer"
+import HeaderContainer from './containers/HeaderContainer'
+
 function App() {
 
 
   return (
     <>
+    <HeaderContainer/>
     <HomeContainer/>
         
     </>

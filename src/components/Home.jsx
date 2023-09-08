@@ -7,10 +7,7 @@ export default function  Home(props) {
   return (
     <div>
    
-   <div className="container1">
-    <span className="cart-count" >{props.data.length}</span>
-    <img  height="100px" src="https://media.istockphoto.com/id/1201806395/vector/shopping-cart-line-icon-black-editable-stroke-trolley-basket-business-concept-shopping-cart.jpg?s=612x612&w=0&k=20&c=KmXx8oRPoNgNzwhxu3zCsacUF-HSVMtpvGEi3hBbe2w="/>
-        </div>
+  
 
     <h1>Home Component</h1>
 
@@ -30,7 +27,9 @@ export default function  Home(props) {
         </div>
         <div>
        <button className="btn" onClick={()=>props.addToCartHandler({price:2100,name:"Iphone 15 ultra"})}>Add to cart</button>
+       <button className="btn" onClick={()=>props.removeToCartHandler()}>Remove to cart</button>
         </div>
+      
       </div>
       </div>
     
